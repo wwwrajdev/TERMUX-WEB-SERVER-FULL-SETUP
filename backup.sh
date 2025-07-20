@@ -27,7 +27,7 @@ filebrowser -r /storage/emulated/0/T/ -p 9090 --address 0.0.0.0
 ssh -R 80:localhost:8080 nokey@localhost.run
 
 filebrowser config set --auth.method basic
-filebrowser users add raj raj@123456789 --perm.admin
+filebrowser users add raj test@123456789 --perm.admin
 -----------------------------------------------------
 npm install -g localtunnel
 lt --port 9090
